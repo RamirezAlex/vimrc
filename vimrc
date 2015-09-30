@@ -60,4 +60,6 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+" NERDTree
+Plugin 'scrooloose/nerdtree'
 call vundle#end()           
