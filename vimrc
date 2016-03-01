@@ -50,16 +50,23 @@ au! Syntax json source /Users/Alex/.vim/ftplugin/json.vim
 " JSHINT
 set runtimepath+=~/.vim/bundle/jshint2.vim/
 
-" Vundle.vim
-set nocompatible 
-filetype off
+" UTF-8 Encoding
+set enc=utf-8
+set fileencoding=utf-8
+set fileencodings=ucs-bom,utf8,prc
+set guifont=Monaco:h11
+set guifontwide=NSimsun:h12
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" Vundle.vim
+" set nocompatible 
+" filetype off
+
+" set rtp+=~/.vim/bundle/Vundle.vim
+" call vundle#begin()
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+" Plugin 'VundleVim/Vundle.vim'
 
 " NERDTree
-Plugin 'scrooloose/nerdtree'
-call vundle#end()           
+" Plugin 'scrooloose/nerdtree'
+" call vundle#end()           
