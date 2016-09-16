@@ -58,15 +58,19 @@ set guifont=Monaco:h11
 set guifontwide=NSimsun:h12
 
 " Vundle.vim
-" set nocompatible 
+set nocompatible 
 " filetype off
 
-" set rtp+=~/.vim/bundle/Vundle.vim
-" call vundle#begin()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle, required
-" Plugin 'VundleVim/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 " NERDTree
-" Plugin 'scrooloose/nerdtree'
-" call vundle#end()           
+Plugin 'scrooloose/nerdtree'
+
+" CtrlP
+Plugin 'https://github.com/ctrlpvim/ctrlp.vim'
+
+call vundle#end()           
