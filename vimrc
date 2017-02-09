@@ -21,6 +21,7 @@ set expandtab
 " UI Config
 set number
 set showcmd
+set relativenumber
 "set cursorline
 
 " Searching
@@ -71,7 +72,10 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 
 " CtrlP
-Plugin 'https://github.com/ctrlpvim/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+
+" Powerline
+Plugin 'powerline/powerline'
 
 call vundle#end()           
